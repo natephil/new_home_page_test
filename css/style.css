@@ -105,7 +105,7 @@ footer {
   float:left;
   position:fixed;
   bottom:50px;
-  -webkit-font-smoothing:subpixel-antialiased;
+/*   -webkit-font-smoothing:subpixel-antialiased; */
 }
 body {
   background-image: linear-gradient(to top, transparent 60px, #fff 60px, #fff 0);
