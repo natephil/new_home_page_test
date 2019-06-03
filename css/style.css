@@ -58,6 +58,34 @@
   background-color: #F7882F;
 }
 
+/* Add fa-awesome styling */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-twitter {
+  color: #1DA1F2;
+}
+
+.fa-linkedin-square {
+  color: #007bb5;
+}
+.fa-github {
+  color: #211f1f;
+}
+.fa-envelope {
+  color: #211f1f;
+}
 
 /* Other footer */
 /* footer {
