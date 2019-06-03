@@ -59,8 +59,8 @@
 }
 
 
-/*Added a footer*/
-footer {
+/* If you want to style your footer more */
+/* footer {
   position: sticky;
   position: -webkit-sticky;
   bottom: 0;
@@ -71,7 +71,7 @@ footer {
   text-shadow: 2px 2px black;
   padding: 5px 0;
   text-align: center;
-}
+} */
 body {
   background-image: linear-gradient(to top, transparent 60px, #fff 60px, #fff 0);
   background-color: #fff;
