@@ -1,0 +1,145 @@
+#scrolly-side .scrolly {
+  display: flex;
+  max-width: 80rem;
+  margin: 3rem auto;
+  background-color: #6B7A8F;
+  padding: 1rem;
+}
+#scrolly-side .scrolly > * {
+  flex: 1;
+}
+#scrolly-side .scrolly article {
+  padding-right: 1rem;
+  max-width: 25rem;
+}
+#scrolly-side .scrolly article .step {
+  min-height: 67vh;
+  margin-bottom: 1rem;
+  background-color: #DCC7AA;
+  transition: background-color 250ms ease-in-out;
+}
+#scrolly-side .scrolly article .step:last-of-type {
+  margin-bottom: 0;
+}
+#scrolly-side .scrolly article .step.is-active {
+  background-color: #F7C331D9;
+}
+#scrolly-side .scrolly article .step p {
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+  font-weight: 400;
+  color: #f4f4f4;
+}
+#scrolly-side .scrolly figure.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  height: 35vh;
+  background: #DCC7AA;
+  margin: 0;
+  top: 25vh;
+  left: 0;
+}
+#scrolly-side .scrolly figure.sticky .bar-outer {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 90%;
+  height: 4rem;
+  background-color: #fff;
+}
+#scrolly-side .scrolly figure.sticky .bar-inner {
+  width: 10%;
+  height: 100%;
+  transition: width 1s ease-in-out;
+  background-color: #F7882F;
+}
+
+
+/*Added a footer*/
+footer {
+  position: sticky;
+  position: -webkit-sticky;
+  bottom: 0;
+  z-index: -1;
+  height: 50px;
+  background-color: dodgerblue;
+  color: white;
+  text-shadow: 2px 2px black;
+  padding: 5px 0;
+  text-align: center;
+}
+body {
+  background-image: linear-gradient(to top, transparent 60px, #fff 60px, #fff 0);
+  background-color: #fff;
+  padding:50px;
+  font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color:#595959;
+  font-weight:400;
+  margin: 0;
+}
+html {
+  background-color: #fff;
+}
+main {
+  padding: 0px;
+  width: 75vw;
+  max-width: 600px;
+  margin: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+  color:#222;
+  margin:0 0 20px;
+}
+
+p, ul, ol, table, pre, dl {
+  margin:0 0 20px;
+}
+
+h1, h2, h3 {
+  line-height:1.1;
+}
+
+h1 {
+  font-size:28px;
+  font-weight: 500;
+}
+
+h2 {
+  color:#393939;
+  font-weight: 500;
+}
+
+h3, h4, h5, h6 {
+  color:#494949;
+  font-weight: 500;
+}
+
+a {
+  color:#39c;
+  text-decoration:none;
+}
+
+a:hover {
+  color:#069;
+}
+
+a small {
+  font-size:11px;
+  color:#777;
+  margin-top:-0.3em;
+  display:block;
+}
+
+a:hover small {
+  color:#777;
+}
+
+@media (max-width: 420px) {
+  footer {
+    font-size: 9pt;
+  }
+}
