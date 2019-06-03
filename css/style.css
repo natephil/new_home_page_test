@@ -59,7 +59,7 @@
 }
 
 
-/* If you want to style your footer more */
+/* Other footer */
 /* footer {
   position: sticky;
   position: -webkit-sticky;
@@ -72,6 +72,13 @@
   padding: 5px 0;
   text-align: center;
 } */
+footer {
+  width:270px;
+  float:left;
+  position:fixed;
+  bottom:50px;
+  -webkit-font-smoothing:subpixel-antialiased;
+}
 body {
   background-image: linear-gradient(to top, transparent 60px, #fff 60px, #fff 0);
   background-color: #fff;
